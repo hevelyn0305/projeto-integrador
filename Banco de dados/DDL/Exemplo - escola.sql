@@ -190,4 +190,5 @@ ON DELETE RESTRICT;
 -- 2: Não é possivel inserir um aluno com uma turma inexistente
 -- 3: Não é possivel excluir uma turma que possua alunos vinculados (RESTRICT)
 
+-- Apaga o Banco de Dados
 DROP DATABASE IF EXISTS escola;
