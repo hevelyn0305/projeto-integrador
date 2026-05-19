@@ -1,0 +1,35 @@
+/* Seletores e Agrupamentos */
+
+/* 
+
+*{seletores Univesal: Aplica a todos os elementos}
+
+p {Seletor tipo: Selecionar todas as tags <p>}
+
+.Alerta {Seletor de classe: Selecionar todos os classe "Alerta"}
+
+#principal {Seletor de ID: Selecionar o elemento com o ID "principal"}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    color: rgb(27, 49, 100);
+}
+h1{
+    color: blue;
+}
+.Alerta {
+    color: red;
+}
+
+#Principal {
+
+
+
+}
