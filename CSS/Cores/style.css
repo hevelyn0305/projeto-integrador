@@ -1,0 +1,57 @@
+/* CORES */
+
+/* 
+Formatos de cor:
+
+color: red; [tipo nome (em inglês)]
+color: #FF0000; [tipo hexadecimal (A - F e 0 - 9)]
+color: rgb(255, 0, 0); [tipo RGB]
+color: rgb(255, 0, 0, 0.5); [tipo RGBA Trasparente]
+color: hsl(0, 100%, 50%); [tipo HSL]
+color: hsla(0, 100%, 50%, 0.5); [tipo HSL: matriz, saturação e iluminação]
+
+*/
+
+.nome {
+    color: red;
+}
+
+.hexadecimal {
+    color: #ff9900;
+}
+
+.rgb{
+    color: rgb(250, 242, 0);
+
+}
+
+.rgba-transparente {
+    color: rgba(81, 255, 0, 0.5);
+}
+
+.hsl {
+    color: hsl(156, 100%, 50%);
+}
+
+
+/* 
+cores de fundo
+
+Apica uma cor de fundo para sua página. Exemplos:
+
+background-color: #ff9900;
+
+background: linear-gradient(to right, #2fb4ed, #ff9900);
+[linear-gradient: cria degradês horizontais, verticais ou diagonais]
+
+
+background-color: rgba(0, 0, 0, 0.3);
+[cor de fundo com Trasnparencia]
+
+*/
+
+#cor-de-fundo {
+    /* background-color: blue; */
+    background: linear-gradient(to right, #2fb4ed, #ff9900); 
+     /* background-color: rgba(0, 0, 0, 0.3);  */
+}
